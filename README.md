@@ -1,0 +1,1 @@
+# Meu exercicios e desafios de projeto do bootcamp ciência de dados com python da DIO
