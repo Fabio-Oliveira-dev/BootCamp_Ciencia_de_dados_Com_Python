@@ -16,7 +16,7 @@ class Cliente:
 
 class PessoaFisica(Cliente):
     def __init__(self, nome, data_nascimento, cpf, endereco):
-        super().__init__(endereco)
+        super().__init__(endereco) # Construtor da classe pai
         self.nome = nome
         self.data_nascimento = data_nascimento
         self.cpf = cpf
@@ -84,7 +84,7 @@ class Conta:
 
 class ContaCorrente(Conta):
     def __init__(self, numero, cliente, limite=500, limite_saques=3):
-        super().__init__(numero, cliente)
+        super().__init__(numero, cliente) # Construtor da classe conta
         self.limite = limite
         self.limite_saques = limite_saques
 
